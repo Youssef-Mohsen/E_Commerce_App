@@ -22,7 +22,7 @@ About App:
 * User Accounts: Create and manage user accounts for personalized shopping experiences and order history tracking.
 
 Skills:
-* State Mangement (cubit,bloc) to easily mange the app
+* State Management (cubit,bloc) to easily manage the app
 * Local Data Base (Not Sqflite)
 * API using dio package
 * Fire base (Authentication)
