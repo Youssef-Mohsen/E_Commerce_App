@@ -123,9 +123,9 @@ class _CartScreenState extends State<CartScreen> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      const Text(
+                       Text(
                         'Total Price: ',
-                        style: TextStyle(color: Colors.white),
+                        style: TextStyle(color: isDarkMode?Colors.white:Colors.black),
                       ),
                       const SizedBox(
                         width: 5,
@@ -135,14 +135,14 @@ class _CartScreenState extends State<CartScreen> {
                         children: [
                           Text(
                             cubit.totalPrice.toString(),
-                            style: const TextStyle(
-                                color: Colors.white,
+                            style:  TextStyle(
+                                color: isDarkMode?Colors.white:Colors.black,
                                 fontWeight: FontWeight.bold),
                           ),
-                          const Text(
+                           Text(
                             '\$',
                             style: TextStyle(
-                                color: Colors.white,
+                                color: isDarkMode?Colors.white:Colors.black,
                                 fontWeight: FontWeight.bold),
                           )
                         ],
